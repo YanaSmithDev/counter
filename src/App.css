@@ -1,0 +1,88 @@
+.App {
+  padding: 30px;
+  display: flex;
+  background-color: rgb(22, 21, 37);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter, .settings-panel {
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  border: 5px solid aqua;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.max-value {
+  color: red;
+}
+
+.value {
+  font-size: 100px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 3;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid aqua;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  flex-grow: 3;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.settings-input {
+  display: flex;
+  justify-content: space-around;
+}
+.error-input {
+  color: red;
+  outline: red;
+  background-color: #dbafaf;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 3;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.error-text {
+  color: red
+}
