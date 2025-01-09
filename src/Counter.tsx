@@ -24,7 +24,6 @@ export const Counter = ({
 
     return (
         <>
-            {/*<SettingsPanel/>*/}
             <div className="counter">
                 <Display maxValue={maxValue} value={value} startValue={startValue} isShowText={isShowText}
                          isShowError={isShowError}/>

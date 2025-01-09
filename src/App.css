@@ -69,7 +69,8 @@
 .error-input {
   color: red;
   outline: red;
-  background-color: #dbafaf;
+  background-color: #ddc4c4;
+  border-color: red;
 }
 
 .text {
